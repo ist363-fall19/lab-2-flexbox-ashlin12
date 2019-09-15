@@ -1,0 +1,131 @@
+body{
+    background-color: white;
+    font-size: 2em;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxblue{
+    background-color: rgb(159, 211, 243);
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxred{
+    background-color: #EF8080;
+    height: 200px;
+    margin: 10px;
+    width: 50%;
+}
+
+.boxred2{
+    background-color: #EF8080;
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+
+.row3{
+    display: flex;
+}
+
+.boxpurple{
+    background-color: #BA54D3;
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+
+.boxpurple2{
+    background-color: #BA54D3;
+    height: 200px;
+    margin: 10px;
+    width: 50%;
+}
+
+.row4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxgreen{
+    background-color: #98FB98;
+    height: 200px;
+    margin: 10px;
+    width: 33%;
+}
+
+.row5{
+    display: flex;
+    justify-content: center;
+}
+
+.boxtan{
+    background-color: #FBEBD7;
+    height: 200px;
+    margin: 10px;
+    width: 33.33%;
+}
+
+.row6{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxgray{
+    background-color: #778899;
+    height: 200px;
+    margin: 10px;
+    width: 25%;
+}
+
+.row7{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.boxseagreen{
+    background-color: #1FB2AA;
+    height: 200px;
+    margin: 10px;
+    width: 16.67%;
+}
+
+.row8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first{
+    display: flex;
+    flex: row;
+    width: 50%;
+}
+
+.boxyellow{
+    background-color: #EEE8AA;
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+
+.second{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.empty{
+    width: 100%;
+}
